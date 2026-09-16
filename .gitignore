@@ -1,0 +1,38 @@
+## .NET / ASP.NET Core
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio / VS Code
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.pdb
+*.cache
+*.log
+
+## Test / coverage artifacts
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+## SQL / local data
+*.db
+*.db-shm
+*.db-wal
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## Temporary/editor files
+*.swp
+*.tmp
+*.bak
