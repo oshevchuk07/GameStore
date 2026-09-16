@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\Projects\\C#\\GameStore\\GameStore.Api\\GameStore.Api.csproj": {}
+    "E:\\Projects\\C#\\GameStore\\GameStore.Api\\GameStore.Api.csproj": {}
   },
   "projects": {
-    "e:\\Projects\\C#\\GameStore\\GameStore.Api\\GameStore.Api.csproj": {
+    "E:\\Projects\\C#\\GameStore\\GameStore.Api\\GameStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Projects\\C#\\GameStore\\GameStore.Api\\GameStore.Api.csproj",
+        "projectUniqueName": "E:\\Projects\\C#\\GameStore\\GameStore.Api\\GameStore.Api.csproj",
         "projectName": "GameStore.Api",
-        "projectPath": "e:\\Projects\\C#\\GameStore\\GameStore.Api\\GameStore.Api.csproj",
+        "projectPath": "E:\\Projects\\C#\\GameStore\\GameStore.Api\\GameStore.Api.csproj",
         "packagesPath": "C:\\Users\\OShevchuk\\.nuget\\packages\\",
-        "outputPath": "e:\\Projects\\C#\\GameStore\\GameStore.Api\\obj\\",
+        "outputPath": "E:\\Projects\\C#\\GameStore\\GameStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,18 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[10.0.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
