@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c/SYwV8lOJQ=",
+  "dgSpecHash": "063UP8GuKw4=",
   "success": true,
-  "projectFilePath": "E:\\Projects\\C#\\GameStore\\GameStore.Api\\GameStore.Api.csproj",
+  "projectFilePath": "e:\\Projects\\C#\\GameStore\\GameStore.Api\\GameStore.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\OShevchuk\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\OShevchuk\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",
