@@ -1,4 +1,6 @@
+using GameStore.Api.Data;
 using GameStore.Api.Dtos;
+using GameStore.Api.Models;
 
 namespace GameStore.Api.Endpoints;
 
@@ -28,13 +30,16 @@ public static class GamesEndpoints
       return Results.Ok(item);
     }).WithName(GetGameEndpointName);
 
-    // add game
-    group.MapPost("/", (CreateGameDto newGame) =>
+    /*
+    * POST
+    */
+    group.MapPost("/", (CreateGameDto newGame, GameStoreContext dbContext) =>
     {
-      if (string.IsNullOrEmpty(newGame.Name))
-      {
-        return Results.BadRequest("Name is required");
-      }
+      // Game game = new()
+      // {
+      //   Name = newGame.Name
+
+      // };
 
       GameDto game = new(
         games.Count + 1,
