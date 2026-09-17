@@ -9,7 +9,7 @@ Content-Type: application/json
 
 {
   "Name": "super mario",
-  "Genre": "Platformer",
+  "genreId": 3,
   "Price": 59.99,
   "ReleaseDate": "2023-02-15"
 }
@@ -20,7 +20,7 @@ Content-Type: application/json
 
 {
   "Name": "super mario",
-  "Genre": "Platformer",
+  "GenreId": 1,
   "Price": 59.99,
   "ReleaseDate": "2023-02-15"
 }
